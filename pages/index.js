@@ -56,8 +56,8 @@ export default function Home() {
               Masih banyak masyarakat yang belum menerapkan protokol kesehatan
               untuk mencegah penyebaran virus corona, seperti tidak mengenakan
               masker. Mereka terhalang kondisi ekonomi dikala pandemi seperti
-              ini, "untuk makan saja susah, apalagi untu membeli masker" ucap
-              salah satu warga dipemukiman tersebut.
+              ini, &quot;untuk makan saja susah, apalagi untu membeli
+              masker&quot; ucap salah satu warga dipemukiman tersebut.
             </div>
           </div>
           <button className="section-content-btn">Lihat Selengkapnya</button>
