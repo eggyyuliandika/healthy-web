@@ -44,17 +44,22 @@
 
 @media only screen and (max-width: 640px) {
   div.cover-display {
+    background-image: url(../public/berbagi2.jpg);
     padding: 30px 10px 0px 10px;
+  }
+
+  div.cover-content {
+    margin-top: 0px;
   }
 
   div.cover-content-title {
     text-align: left;
-    font-size: 38px;
+    font-size: 24px;
   }
 
   div.cover-content-desc {
     text-align: left;
-    font-size: 26px;
+    font-size: 16px;
   }
 
   div .cover-navbar {
