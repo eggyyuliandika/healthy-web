@@ -43,18 +43,18 @@
 }
 
 @media only screen and (max-width: 640px) {
-  div .cover-display {
+  div.cover-display {
     padding: 30px 10px 0px 10px;
   }
 
   div.cover-content-title {
     text-align: left;
-    font-size: 26px;
+    font-size: 38px;
   }
 
   div.cover-content-desc {
     text-align: left;
-    font-size: 16px;
+    font-size: 26px;
   }
 
   div .cover-navbar {
