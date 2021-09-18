@@ -72,12 +72,12 @@
   }
 
   div.cover-title-navbar {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   div.cover-content-desc {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   div.cover-content img {
@@ -88,7 +88,7 @@
     display: flex;
     justify-content: center;
     padding: 12px 26px;
-    margin: 40px 0;
+    margin: 30px 0;
     font-size: 12px;
   }
 
@@ -104,8 +104,10 @@
   }
 
   div.section img {
-    width: 318px;
-    height: 220px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 200px;
   }
 
   div.section-content h1 {
