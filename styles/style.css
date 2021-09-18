@@ -47,8 +47,11 @@
     background-image: url(../public/berbagi2.jpg);
     width: 100%;
     height: 100vh;
+    padding: 20px 10px 0px 10px;
+  }
 
-    padding: 30px 10px 0px 10px;
+  div.cover-navbar {
+    display: none;
   }
 
   div.cover-menu-navbar {
@@ -184,6 +187,32 @@
   div.footer-end {
     font-size: 12px;
   }
+
+  div.heading-mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  nav.mobile-nav {
+    height: fit-content;
+    width: 100%;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav.mobile-nav button {
+    border: none;
+    padding: 0px 10px;
+    border-radius: 6px;
+    margin: 5px 0px;
+    font-size: 20px;
+    justify-content: flex-end;
+  }
 }
 
 /* Cover */
@@ -197,6 +226,47 @@
 }
 
 /* Cover Navbar */
+
+.mobile-nav {
+  display: none;
+  color: #fff;
+}
+
+.mobile-nav button {
+  background-color: rgb(247, 188, 88);
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.mobile-nav button:hover {
+  background-color: rgb(0, 98, 255);
+}
+
+.mobile-nav-content {
+  display: none;
+  position: fixed;
+  padding: 20px;
+  top: 50px;
+  left: 70%;
+  right: 1%;
+  border-radius: 6px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+}
+
+.mobile-nav-content.visible {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mobile-nav-content a {
+  text-align: center;
+  padding: 10px 0px;
+}
 
 .cover-navbar {
   /* position: fixed; */

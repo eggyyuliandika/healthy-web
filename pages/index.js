@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
+  const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <div>
       <div className="cover-display">
@@ -17,6 +19,21 @@ export default function Home() {
             <div>Tentang</div>
           </div>
         </div>
+        <nav className="mobile-nav">
+          <div className="heading-mobile">
+            <img src="/hand.png" width="30px" height="30px" />
+            PeduliSesama
+          </div>
+          <button onClick={() => setShowMobileNav(!showMobileNav)}>=</button>
+          <div
+            className={`mobile-nav-content ${showMobileNav ? "visible" : ""}`}
+          >
+            <a>Beranda</a>
+            <a>Riwayat</a>
+            <a>Informasi</a>
+            <a>Tentang</a>
+          </div>
+        </nav>
         <div className="cover-content">
           <div>
             <div className="cover-content-title">
@@ -44,13 +61,13 @@ export default function Home() {
             tersendiri bagi masyarakat yang tinggal di permukiman pemulung di
             <span> Tanah Merah, Koja, Jakarta Utara.</span>
           </div>
-          {/* <div>
-            Di lokasi tersebut juga dipenuhi dengan barang-barang bekas hasil
-            kumpul warga yang memang mata pencahariannya adalah pemulung. Namun
-            hal ini tidak menjadi halangan bagi warga untuk tetap disiplin
-            menerapkan protokol kesehatan demi mencegah penularan Covid-19.
-          </div> */}
           <div>
+            Di lokasi dipenuhi dengan barang-barang bekas hasil kumpul warga
+            yang memang mata pencahariannya adalah pemulung. Masih banyak
+            masyarakat yang belum menerapkan protokol kesehatan untuk mencegah
+            penyebaran virus corona, seperti tidak mengenakan masker.
+          </div>
+          {/* <div>
             <div>
               Masih banyak masyarakat yang belum menerapkan protokol kesehatan
               untuk mencegah penyebaran virus corona, seperti tidak mengenakan
@@ -58,7 +75,7 @@ export default function Home() {
               ini, &quot;untuk makan saja susah, apalagi untu membeli
               masker&quot; ucap salah satu warga dipemukiman tersebut.
             </div>
-          </div>
+          </div> */}
           <button className="section-content-btn">Lihat Selengkapnya</button>
         </div>
       </div>
