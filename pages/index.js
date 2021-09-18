@@ -32,7 +32,6 @@ export default function Home() {
             </div>
             <button className="cover-content-btn">LAINNYA</button>
           </div>
-          {/* <img src="/berbagi masker8.jpg" /> */}
         </div>
       </div>
 
@@ -122,7 +121,7 @@ export default function Home() {
           <div>Pendukung</div>
         </div>
         <div>
-          <h4>Bersama dengan</h4>
+          <h4>Didukung oleh</h4>
           <div>Sahabat Indonesia Berbagi</div>
           <div>Gerakan Seribu Sehari Indonesia</div>
           <div>Koalisi Pemuda Hijau Indonesia</div>
