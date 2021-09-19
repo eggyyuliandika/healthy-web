@@ -68,8 +68,8 @@ export default function Home() {
           <button className="section-content-btn">Lihat Selengkapnya</button>
         </div>
       </div>
-      <div className="section1">
-        <div className="section1-card">
+      <div className="main-section">
+        <div className="main-section-card">
           <h2>
             <img src="/donasi.png" width="50px" height="50px" />
             Berdonasi
@@ -78,9 +78,9 @@ export default function Home() {
             Berdonasi masker kepada pejuang jalanan, dan peduli terhadap
             lingkungan.
           </div>
-          <button className="section1-card-btn">BERDONASI</button>
+          <button className="main-section-card-btn">BERDONASI</button>
         </div>
-        <div className="section2-card">
+        <div className="main-section-primarycard">
           <h2>
             <img src="/team.png" width="50px" height="50px" />
             Bergabung
@@ -88,18 +88,18 @@ export default function Home() {
           <div>
             Bergabung dengan komunitas jalanan, dan peduli terhadap sesama.
           </div>
-          <button className="section1-card-btn">GABUNG</button>
+          <button className="main-section-card-btn">GABUNG</button>
         </div>
       </div>
-      <div className="section2">
-        <div className="section2-content">
+      <div className="primary-section">
+        <div className="primary-section-content">
           <h1>Dokumentasi Komunitas Pejuang Jalanan</h1>
-          <div className="section2-subcontent-mobile">
+          <div className="primary-section-subcontent-mobile">
             Komunitas yang peduli terhapad pejuang jalanan, yang menjadikan
             jalanan sebagai tempatnya mencari nafkah di tengah kondisi pandemi
             seperti ini.
           </div>
-          <div className="section2-subcontent">
+          <div className="primary-section-subcontent">
             Komunitas yang peduli terhadap pejuang jalanan, yang menjadikan
             jalanan sebagai tempatnya mencari nafkah. Di tengah pandemi seperti
             ini yang diharuskan untuk memakai masker untuk mengurang penyebaran
@@ -107,7 +107,7 @@ export default function Home() {
             masker kepada pejuang jalanan.
           </div>
         </div>
-        <div className="section2-img">
+        <div className="primary-section-img">
           <img src="/pemulung7.jpg" />
           <img src="/pemulung4.jpeg" />
           <img src="/pemulung6.jpg" />

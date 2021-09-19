@@ -131,43 +131,43 @@
     margin: 18px 12px 10px 0px;
   }
 
-  div.section1 {
+  div.main-section {
     display: flex;
     flex-direction: column;
     padding: 0px 10px 30px 10px;
   }
 
-  div.section1-card {
+  div.main-section-card {
     width: 100%;
     padding: 10px 20px;
     margin: 10px 0px;
   }
 
-  div.section2-card {
+  div.main-section-primarycard {
     width: 100%;
     padding: 10px 20px;
     margin: 10px 0px;
   }
 
-  div.section2 {
+  div.primary-section {
     padding: 0px 10px 30px 10px;
   }
 
-  div.section2-content h1 {
+  div.primary-section-content h1 {
     font-size: 18px;
   }
 
-  div.section2-subcontent {
+  div.primary-section-subcontent {
     display: none;
   }
 
-  div.section2-subcontent-mobile {
+  div.primary-section-subcontent-mobile {
     text-indent: 0.1in;
     font-size: 14px;
     display: flex;
   }
 
-  div.section2-img img {
+  div.primary-section-img img {
     height: 200px;
   }
 
@@ -417,14 +417,14 @@
 
 /* Section1 */
 
-.section1 {
+.main-section {
   display: flex;
   padding: 25px 30px;
   justify-content: center;
   background-color: white;
 }
 
-.section1-card {
+.main-section-card {
   text-align: center;
   font-family: "Roboto", sans-serif;
   background-image: url(../public/unslapsh1.jpg);
@@ -439,7 +439,7 @@
   border-radius: 10px;
 }
 
-.section2-card {
+.main-section-primarycard {
   text-align: center;
   font-family: "Roboto", sans-serif;
   background-image: url(../public/1.jpg);
@@ -454,7 +454,7 @@
   border-radius: 10px;
 }
 
-.section2-card h2 {
+.main-section-card h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,11 +463,11 @@
   text-align: center;
 }
 
-.section2-card h2 img {
+.main-section-card h2 img {
   margin-right: 6px;
 }
 
-.section2-card-btn {
+.main-section-card-btn {
   font-weight: 700;
   border-radius: 6px;
   margin: 20px;
@@ -479,42 +479,7 @@
   font-size: 10px;
 }
 
-.section2-card-btn:hover {
-  background-color: white;
-
-  color: black;
-  font-family: "Roboto", sans-serif;
-  transition: 0.8s;
-  box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(90, 132, 196, 0.19);
-}
-
-.section1-card h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-  font-weight: bold;
-  text-align: center;
-}
-
-.section1-card h2 img {
-  margin-right: 6px;
-}
-
-.section1-card-btn {
-  font-weight: 700;
-  border-radius: 6px;
-  margin: 20px;
-  padding: 14px 20px;
-  border: solid 2px #fff;
-  background-color: transparent;
-  color: white;
-  transition: 0.5s;
-  font-size: 10px;
-}
-
-.section1-card-btn:hover {
+.main-section-card-btn:hover {
   background-color: white;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -527,38 +492,72 @@
 
 /* Section2 */
 
-.section2 {
+.primary-section {
   padding: 30px 30px;
 }
 
-.section2-content h1 {
+.primary-section-content h1 {
   color: #012233;
   font-weight: bold;
   margin: 0;
 }
 
-.section2-subcontent {
+.primary-section-subcontent {
   text-indent: 0.2in;
   color: gray;
   padding-bottom: 10px;
 }
 
-.section2-subcontent-mobile {
+.primary-section-subcontent-mobile {
   display: none;
   text-indent: 0.2in;
   color: gray;
   padding-bottom: 10px;
 }
 
-.section2-img {
+.primary-section-img {
   display: flex;
   overflow: auto;
 }
 
-.section2-img img {
+.primary-section-img img {
   width: auto;
   height: 300px;
   padding: 0 10px 0 0;
+}
+
+.primary-section-card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.primary-section-card h2 img {
+  margin-right: 6px;
+}
+
+.primary-section-card-btn {
+  font-weight: 700;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 14px 20px;
+  border: solid 2px #fff;
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+  font-size: 10px;
+}
+
+.primary-section-card-btn:hover {
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  transition: 0.8s;
+  box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(90, 132, 196, 0.19);
 }
 
 /* End Section2 */
