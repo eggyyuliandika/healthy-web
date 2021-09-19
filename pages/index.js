@@ -37,12 +37,11 @@ export default function Home() {
         <div className="cover-content">
           <div>
             <div className="cover-content-title">
-              Sejuta Masker Untuk
-              <span> Indonesia!</span>
+              Sejuta Masker Untuk Pejuang Jalanan!
             </div>
             <div className="cover-content-desc">
-              Inisiatif berbagi masker kepada pejuang jalanan, dan saling peduli
-              dikala pandemi Covid-19.
+              Inisiatif berbagi masker kepada pejuang jalanan, dikala pandemi
+              Covid-19.
             </div>
             <div className="cover-content-desc">
               #SemuaTerlindungiSemuaSehat
@@ -62,20 +61,10 @@ export default function Home() {
             <span> Tanah Merah, Koja, Jakarta Utara.</span>
           </div>
           <div>
-            Di lokasi dipenuhi dengan barang-barang bekas hasil kumpul warga
-            yang memang mata pencahariannya adalah pemulung. Masih banyak
-            masyarakat yang belum menerapkan protokol kesehatan untuk mencegah
-            penyebaran virus corona, seperti tidak mengenakan masker.
+            Lokasi yang dipenuhi barang-barang bekas. Masih banyak masyarakat
+            yang belum menerapkan protokol kesehatan untuk mencegah penyebaran
+            virus corona.
           </div>
-          {/* <div>
-            <div>
-              Masih banyak masyarakat yang belum menerapkan protokol kesehatan
-              untuk mencegah penyebaran virus corona, seperti tidak mengenakan
-              masker. Mereka terhalang kondisi ekonomi dikala pandemi seperti
-              ini, &quot;untuk makan saja susah, apalagi untu membeli
-              masker&quot; ucap salah satu warga dipemukiman tersebut.
-            </div>
-          </div> */}
           <button className="section-content-btn">Lihat Selengkapnya</button>
         </div>
       </div>
@@ -91,7 +80,7 @@ export default function Home() {
           </div>
           <button className="section1-card-btn">BERDONASI</button>
         </div>
-        <div className="section1-card">
+        <div className="section2-card">
           <h2>
             <img src="/team.png" width="50px" height="50px" />
             Bergabung
@@ -111,7 +100,7 @@ export default function Home() {
             seperti ini.
           </div>
           <div className="section2-subcontent">
-            Komunitas yang peduli terhapad pejuang jalanan, yang menjadikan
+            Komunitas yang peduli terhadap pejuang jalanan, yang menjadikan
             jalanan sebagai tempatnya mencari nafkah. Di tengah pandemi seperti
             ini yang diharuskan untuk memakai masker untuk mengurang penyebaran
             virus corona, maka komunitas kami berinisiatif menyalurkan bantuan
