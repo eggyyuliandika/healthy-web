@@ -40,8 +40,8 @@ export default function Home() {
               Sejuta Masker Untuk Pejuang Jalanan!
             </div>
             <div className="cover-content-desc">
-              Inisiatif berbagi masker kepada pejuang jalanan, dikala pandemi
-              Covid-19.
+              Komunitas yang berinisiatif berbagi masker kepada pejuang jalanan,
+              dikala pandemi Covid-19.
             </div>
             <div className="cover-content-desc">
               #SemuaTerlindungiSemuaSehat
