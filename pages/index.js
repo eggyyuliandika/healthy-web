@@ -57,8 +57,8 @@ export default function Home() {
           <h1>Gerakan Berbagi Masker Untuk Pejuang Jalanan</h1>
           <div>
             Menjaga kesehatan di masa pandemi Covid-19 menjadi tantangan
-            tersendiri bagi masyarakat yang tinggal di permukiman pemulung di
-            <span> Tanah Merah, Koja, Jakarta Utara.</span>
+            tersendiri bagi masyarakat yang tinggal di permukiman pemulung yang
+            padat penduduk dan sangat kumuh.
           </div>
           <div>
             Lokasi yang dipenuhi barang-barang bekas. Masih banyak masyarakat
@@ -89,6 +89,46 @@ export default function Home() {
             Bergabung dengan komunitas jalanan, dan peduli terhadap sesama.
           </div>
           <button className="main-section-card-btn">GABUNG</button>
+        </div>
+      </div>
+      <div className="sub-section">
+        <h1>Sebaran Komunitas di Indonesia</h1>
+        <div className="sub-section-content">
+          <div className="container">
+            <img src="/house.png" />
+            <div>
+              <h4>Wilayah Bali</h4>
+              <div>Jln. Wibisana Utara No.32</div>
+            </div>
+          </div>
+          <div className="container">
+            <img src="/house.png" />
+            <div>
+              <h4>Wilayah Bali</h4>
+              <div>Jln. Wibisana Utara No.32</div>
+            </div>
+          </div>
+          <div className="container">
+            <img src="/house.png" />
+            <div>
+              <h4>Wilayah Bali</h4>
+              <div>Jln. Wibisana Utara No.32</div>
+            </div>
+          </div>
+          <div className="container">
+            <img src="/house.png" />
+            <div>
+              <h4>Wilayah Bali</h4>
+              <div>Jln. Wibisana Utara No.32</div>
+            </div>
+          </div>
+          <div className="container">
+            <img src="/house.png" />
+            <div>
+              <h4>Wilayah Bali</h4>
+              <div>Jln. Wibisana Utara No.32</div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="primary-section">
