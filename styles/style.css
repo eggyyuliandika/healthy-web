@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1024px) {
   div.cover-display {
     height: 100vh;
     width: 100%;
@@ -13,21 +13,22 @@
     height: 200px;
   }
 
-  div .cover-content-title {
+  div.cover-content-title {
     font-size: 36px;
   }
 
-  div .cover-content-desc {
+  div.cover-content-desc {
     font-size: 18px;
   }
 
-  div .section-content h1 {
+  div.section-content h1 {
     margin: 0;
     font-size: 20px;
   }
 
   div.section img {
     width: 520px;
+    margin-right: 40px;
     height: 330px;
   }
 
@@ -115,7 +116,7 @@
 
   div.section-content h1 {
     font-size: 18px;
-    margin: 0;
+    margin: 10px 0;
   }
 
   div.section-content div {
@@ -164,6 +165,10 @@
     text-indent: 0.1in;
     font-size: 14px;
     display: flex;
+  }
+
+  div.section2-img img {
+    height: 200px;
   }
 
   div.footer {
@@ -227,8 +232,8 @@
   padding: 30px 50px 0px 50px;
   background-position: center;
   background-size: cover;
-  height: 100%;
-  width: auto;
+  height: 100vh;
+  width: 100%;
 }
 
 /* Cover Navbar */
@@ -363,14 +368,14 @@
   background-color: #ffffff;
   border: transparent;
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
   gap: 50px;
+  grid-template-columns: 0.7fr 1fr;
   margin: 50px 30px;
 }
 
 .section img {
-  width: auto;
-  height: 200px;
+  width: 650px;
+  height: 350px;
   border-radius: 12px;
 }
 
@@ -383,7 +388,6 @@
 
 .section-content h1 {
   font-weight: bold;
-  margin: 10px 0;
   color: #012233;
 }
 
@@ -404,7 +408,7 @@
   border-radius: 4px;
   font-size: 14px;
   padding: 18px 30px;
-  margin: 10px 10px 10px 0px;
+  margin: 40px 10px 10px 0px;
   color: white;
   background-color: #0066ff;
 }
@@ -424,11 +428,12 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
   background-image: url(../public/unslapsh1.jpg);
+  background-position: center;
   background-size: cover;
   color: white;
   width: 50%;
   padding: 30px;
-  height: fit-content;
+  height: 300px;
   font-size: 14px;
   margin-right: 10px;
   border-radius: 10px;
@@ -439,10 +444,11 @@
   font-family: "Roboto", sans-serif;
   background-image: url(../public/1.jpg);
   background-size: cover;
+  background-position: center;
   color: white;
   width: 50%;
   padding: 30px;
-  height: fit-content;
+  height: 300px;
   font-size: 14px;
   margin-left: 0 10px;
   border-radius: 10px;
@@ -522,7 +528,7 @@
 /* Section2 */
 
 .section2 {
-  padding: 30px 50px;
+  padding: 30px 30px;
 }
 
 .section2-content h1 {
@@ -551,7 +557,7 @@
 
 .section2-img img {
   width: auto;
-  height: 200px;
+  height: 300px;
   padding: 0 10px 0 0;
 }
 
@@ -568,6 +574,11 @@
   background-color: #012233;
 }
 
+.footer h4 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-contact {
   display: flex;
   justify-content: start;
@@ -575,8 +586,8 @@
 }
 
 .footer-icon {
-  width: 14px;
-  height: 14px;
+  width: 30px;
+  height: 30px;
   margin-right: 4px;
 }
 
