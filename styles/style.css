@@ -110,7 +110,7 @@
   div.section img {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: auto;
     align-items: center;
     height: 200px;
   }
