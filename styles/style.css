@@ -110,13 +110,13 @@
   div.section img {
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 320px;
     height: 200px;
   }
 
   div.section-content h1 {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 0px 0;
   }
 
   div.section-content div {
