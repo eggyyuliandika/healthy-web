@@ -104,28 +104,28 @@ export default function Home() {
           <div className="container">
             <img src="/house.png" />
             <div>
-              <h4>Wilayah Bali</h4>
+              <h4>Wilayah Jakarta Utara</h4>
               <div>Jln. Wibisana Utara No.32</div>
             </div>
           </div>
           <div className="container">
             <img src="/house.png" />
             <div>
-              <h4>Wilayah Bali</h4>
+              <h4>Wilayah Ambon</h4>
               <div>Jln. Wibisana Utara No.32</div>
             </div>
           </div>
           <div className="container">
             <img src="/house.png" />
             <div>
-              <h4>Wilayah Bali</h4>
+              <h4>Wilayah Bengkulu</h4>
               <div>Jln. Wibisana Utara No.32</div>
             </div>
           </div>
           <div className="container">
             <img src="/house.png" />
             <div>
-              <h4>Wilayah Bali</h4>
+              <h4>Wilayah Papua</h4>
               <div>Jln. Wibisana Utara No.32</div>
             </div>
           </div>
