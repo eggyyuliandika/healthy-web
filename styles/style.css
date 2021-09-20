@@ -155,34 +155,8 @@
     margin: 10px 0px;
   }
 
-  div.sub-section {
-    padding: 0px 10px 30px 10px;
-  }
-
-  div.sub-section-content {
-    overflow: auto;
-    display: grid;
-    grid-template-columns: 0.1fr 0.5fr 0.5fr 0.5fr 0.5fr;
-  }
-
-  div.sub-section h1 {
-    font-size: 18px;
-    color: #012233;
-  }
-
-  div.container {
-    height: 200px;
-    width: 300px;
-    padding: 0px;
-  }
-
-  div.container img {
-    width: 60px;
-    height: 60px;
-  }
-
   div.primary-section {
-    padding: 0px 10px 30px 10px;
+    padding: 30px 10px 30px 10px;
   }
 
   div.primary-section-content h1 {
@@ -459,7 +433,7 @@
 .main-section-card {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  background-image: url(../public/unslapsh1.jpg);
+  background-image: url(../public/berdonasi.jpg);
   background-position: center;
   background-size: cover;
   color: white;
@@ -474,7 +448,7 @@
 .main-section-primarycard {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  background-image: url(../public/1.jpg);
+  background-image: url(../public/bergabung.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -521,42 +495,6 @@
 }
 
 /* End Section1 */
-
-/* Sub Section */
-
-.sub-section {
-  padding: 30px;
-}
-
-.sub-section-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  border-radius: 6px;
-  color: white;
-  justify-content: center;
-  flex-direction: column;
-  padding: 40px;
-  background-image: url(../public/annie-spratt-QckxruozjRg-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  border: transparent;
-  width: fit-content;
-}
-
-.container h4 {
-  margin: 10px;
-}
-
-.container img {
-  width: 70px;
-  height: 70px;
-}
 
 /* Section2 */
 

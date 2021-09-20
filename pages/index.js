@@ -91,46 +91,7 @@ export default function Home() {
           <button className="main-section-card-btn">GABUNG</button>
         </div>
       </div>
-      <div className="sub-section">
-        <h1>Sebaran Komunitas di Indonesia</h1>
-        <div className="sub-section-content">
-          <div className="container">
-            <img src="/house.png" />
-            <div>
-              <h4>Wilayah Bali</h4>
-              <div>Jln. Wibisana Utara No.32</div>
-            </div>
-          </div>
-          <div className="container">
-            <img src="/house.png" />
-            <div>
-              <h4>Wilayah Jakarta Utara</h4>
-              <div>Jln. Wibisana Utara No.32</div>
-            </div>
-          </div>
-          <div className="container">
-            <img src="/house.png" />
-            <div>
-              <h4>Wilayah Ambon</h4>
-              <div>Jln. Wibisana Utara No.32</div>
-            </div>
-          </div>
-          <div className="container">
-            <img src="/house.png" />
-            <div>
-              <h4>Wilayah Bengkulu</h4>
-              <div>Jln. Wibisana Utara No.32</div>
-            </div>
-          </div>
-          <div className="container">
-            <img src="/house.png" />
-            <div>
-              <h4>Wilayah Papua</h4>
-              <div>Jln. Wibisana Utara No.32</div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div className="primary-section">
         <div className="primary-section-content">
           <h1>Dokumentasi Komunitas Pejuang Jalanan</h1>
